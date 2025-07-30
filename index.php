@@ -4,10 +4,13 @@ require "BLOCKS/heder.php";
     ?>
     <h1>HOME PAGE</h1>
     <?php
-    date_default_timezone_set('Europe/Warsaw');
-   echo date('j F o час:H:i:s ').'<br>';
-   echo time().'<br>';
-   echo date('j F o час:H:i:s', strtotime('now')).'<br>';
+  //phpinfo();//корисна інформація про php 
+  //echo '<pre>'.print_r($_SERVER, true).'</pre>';
+//echo $_SERVER['HTTP_HOST'].'-'.$_SERVER['REQUEST_URI'].'<br>';//localhost;
+//echo $_SERVER['HTTP_USER_AGENT'];//дані про пристрій
+
+
+
 require "BLOCKS/footer.php";
     ?>
     
